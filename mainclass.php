@@ -4,7 +4,7 @@ error_reporting(0);
 class mainclass{
 
 	public function __construct(){
-		$this->con = mysqli_connect('localhost','root','','jobyance') or die("Error ". mysqli_error($con));
+		$this->con = mysqli_connect('localhost','timesfaridabad_jobyance','n+Ek^K,1i@w$','timesfaridabad_jobyance') or die("Error ". mysqli_error($con));
 		if(!$this->con){
 			throw new exception('Could not connect to database server');
 		}
@@ -220,4 +220,3 @@ function arrayToStr($arr){
 
 
 }
-?>
